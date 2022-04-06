@@ -1,0 +1,94 @@
+.contactContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 90% repeat(2, 1fr);
+    color: white;
+    width: 100vw;
+}
+
+.title {
+    font-size: 3.2rem;
+    grid-column: 3/3;
+    grid-row: 1/1;
+    width: max-content;
+    margin-top: 4rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.8rem 4rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.contactBody {
+    grid-column: 4/3;
+    grid-row: 2/2;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.8rem 4rem;
+}
+
+.sofiaBody, .varnaBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.sofiaTitle, .varnaTitle {
+    font-size: 2.2rem;
+    margin-top: 3rem;
+    font-weight: 550;
+    border-left: 1rem solid white;
+    padding-left: 1rem;
+}
+
+
+.sofiaPhone, .varnaPhone {
+    grid-row: 2/2;
+}
+
+
+.sofiaAddress, .varnaAddress {
+    grid-row: 3/3;
+}
+
+
+.sofiaAddressGoogle, .varnaAddressGoogle {
+    grid-column: 2/2;
+    grid-row: 3/3;
+    align-self: center;
+}
+
+.sofiaAddressGoogle a, .varnaAddressGoogle a {
+    text-decoration: none;
+    font-weight: 550;
+    color: white;
+    border-left: 1px solid white;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.sofiaAddressGoogle a:hover, .varnaAddressGoogle a:hover {
+    letter-spacing: 0.1rem;
+}
+
+.sofiaHours, .varnaHours {
+    grid-row: 4/4;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    column-gap: 1rem;
+}
+
+.hoursList:nth-child(2) {
+    border-left: 1px solid white;
+    padding-left: 1rem;
+}
+
+.hoursList, li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+.hoursList, li:nth-child(1) {
+    margin-top: 1rem;
+}

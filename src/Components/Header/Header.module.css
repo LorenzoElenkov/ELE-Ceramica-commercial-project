@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Porcelanosa';
+    src: url("../../../public/fonts/OPTIAmway.ttf.woff");
+}
+
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 6.66vw) 60vw repeat(3, 6.66vw);
+    border-bottom: .1rem solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.scrolled {
+    background-color: rgb(37, 37, 37);
+}
+
+.eleImg {
+    height: 3rem;
+    margin-top: 0.2rem;
+    filter: invert(100%);
+}
+
+.aLogo {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    font-family: 'Porcelanosa';
+    font-size: 2.6rem;
+    letter-spacing: -0.1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+#spanHeader {
+    letter-spacing: normal;
+    padding: 1rem;
+    margin-top: 0.4rem;
+    color: white;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+}
+
+.buttons button {
+    background-color: transparent;
+    padding: .5rem;
+    font-size: 1.4rem;
+    border-radius: .5rem;
+    margin: 1rem 0;
+    color: white;
+    position: relative;
+}
+
+.buttons button:active {
+    background-color: rgb(230, 230, 230);
+    color: black;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+}

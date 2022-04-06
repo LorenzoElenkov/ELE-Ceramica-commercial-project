@@ -1,0 +1,51 @@
+nav {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 4.9rem;
+    padding: 1rem 10vw;
+    display: grid;
+    row-gap: 1rem;
+    justify-content: center;
+    border-bottom: .1rem solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: max-content;
+}
+
+.scrolled {
+    background-color: rgb(37, 37, 37);
+}
+
+.projectButton {
+    margin: 0 1.5rem;
+    font-size: 1.2rem;
+    background: linear-gradient(0.25turn, gray, transparent);
+    background-size: 2000% 100%;
+    background-position: 100% 0;
+    transition: background-size 0.25s;
+    padding: .5rem 1rem;
+    color: white;
+    border: none;
+    border-left: .3rem solid gray;
+}
+
+.projectButton:hover {
+    background-size: 100% 100%;
+}
+
+button:active {
+    background: rgb(230, 230, 230);
+    color: black;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    justify-content: center;
+}
+
+
+.active {
+    border-left: .3rem solid tomato;
+}
+
+

@@ -1,0 +1,95 @@
+.factoryBody {
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 90% repeat(2, 1fr);
+    margin-top: 2rem;
+}
+
+
+.mainTitle {
+    margin-top: 4rem;
+    grid-column: 3/3;
+    width: max-content;
+    padding: 0.8rem 4rem 0.8rem 4rem;
+    font-size: 3.2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-top-right-radius: 2.5rem;
+    border-top-left-radius: 2.5rem;
+}
+
+.mainSubtext {
+    grid-row: 2/2;
+    grid-column: 3/3;
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: calc(100vh - 48.25rem);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.mainCatalogueBody {
+    grid-row: 3/3;
+    grid-column: 3/3;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: repeat(auto-fit, max-content);
+}
+
+.mainCatalogueTitle {
+    font-size: 2.6rem;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-weight: 900;
+    grid-column: 1/2;
+    padding: 2.5rem 2.5rem 3rem 2.5rem;
+    /* border: 1px solid rgba(0, 0, 0, 0.4); */
+}
+
+.mainCatalogueSubtitle {
+    grid-row: 2/2;
+    padding: 10rem 1rem 1.5rem 1rem;
+}
+
+
+.cataloguesContainer {
+    grid-row: 2/2;
+    grid-column: 2/2;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
+    column-gap: 3rem;
+    row-gap: 3rem;
+    margin-left: 2rem;
+    padding-bottom: 5rem;
+}
+
+.singleCatalogueBody {
+    justify-self: center;
+    display: grid;
+    row-gap: 0.5rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.singleCatalogueBody:hover {
+    transform: scale(1.05);
+}
+
+.singleCatalogueImage {
+    width: 100%;
+    border: 0.1rem solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.5);
+}
+
+.singleCatalogueName {
+    margin-top: 2rem;
+    padding: 0 1rem;
+    justify-self: end;
+    font-size: 1.4rem;
+}
+
+.singleCatalogueView {
+    padding: 0.5rem 1rem 1rem 1rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+
+}
