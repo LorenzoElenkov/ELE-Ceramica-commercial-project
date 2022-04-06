@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ELE-Ceramica-commercial-project/static/css/main.e9762ac4.css",
-    "main.js": "/ELE-Ceramica-commercial-project/static/js/main.2a37d678.js",
+    "main.js": "/ELE-Ceramica-commercial-project/static/js/main.5bee5954.js",
     "static/js/787.40ee2a7a.chunk.js": "/ELE-Ceramica-commercial-project/static/js/787.40ee2a7a.chunk.js",
     "static/media/OPTIAmway.ttf.woff": "/ELE-Ceramica-commercial-project/static/media/OPTIAmway.ttf.389309920a9b614bbf35.woff",
     "index.html": "/ELE-Ceramica-commercial-project/index.html",
     "main.e9762ac4.css.map": "/ELE-Ceramica-commercial-project/static/css/main.e9762ac4.css.map",
-    "main.2a37d678.js.map": "/ELE-Ceramica-commercial-project/static/js/main.2a37d678.js.map",
+    "main.5bee5954.js.map": "/ELE-Ceramica-commercial-project/static/js/main.5bee5954.js.map",
     "787.40ee2a7a.chunk.js.map": "/ELE-Ceramica-commercial-project/static/js/787.40ee2a7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9762ac4.css",
-    "static/js/main.2a37d678.js"
+    "static/js/main.5bee5954.js"
   ]
 }
